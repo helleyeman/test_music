@@ -1,0 +1,189 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:black;
+}
+.header{
+    position: fixed;
+    z-index: 1000000;
+    width: 100%;
+    background-color: black;
+    padding-top: 4;
+    
+}
+.search{
+    display:flex;
+}
+.signup{
+
+
+}
+.login{
+
+}
+button{
+    border: none;
+}
+.info{
+    position: relative;
+    left: 900;
+    ;
+}
+.round{
+    
+    border-radius: 30px;
+    padding: 15px;
+    
+
+}
+.middle{
+    position: relative;
+    left: 34%;
+    border-radius: 100px;
+    background-color: gray;
+    padding: 2;
+    width: 400;
+}
+.signup{
+    background-color: black;
+    color: rgb(249, 249, 249);
+    margin-right: 10px;
+}
+.login{
+
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.input{
+
+    position: relative;
+    bottom: 8;
+    border-radius: 200px;
+    left: 80;
+    padding: 10;
+    
+}
+.browse{
+    position: absolute;
+    right: 0;
+    margin-right: 10;
+    
+}
+.container{
+    position:relative;
+    top: 100;
+    display: block;
+    overflow-x: hidden;
+    
+}
+
+.box{
+    border-radius: 20px;
+    height:200;
+}
+.left{
+    position:fixed;
+    width: 40%;
+    height: 100%;
+    background-color: rgb(70, 103, 62);
+    overflow-y:scroll;
+    
+}
+
+.shape{
+    padding: 10;
+}
+.right{
+    position: relative;
+    left: 40%;
+    width: 59%;
+    height: auto;
+    margin-left: 1%;
+
+}
+.card img{
+    height: 180px;
+    width:150px
+}
+
+
+.card{
+    margin: 10px;
+    height: 200;
+    width: 150px;
+    color: white;
+    
+    
+}
+.album{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 450px;
+    overflow-y: scroll;
+}
+
+.library li{
+    height: 80px;
+    display: flex;
+    position:relative;
+    left:5px;
+    padding: 8 0 0;
+    gap: 34px;
+}
+.box .library{
+    height:auto;
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.player{
+    position: relative;
+    height: 100;
+    color: white;
+    width: 59%;
+    
+    
+}
+.controls{
+    text-align: center;
+    position: relative;
+    top: 20%;
+    
+}
+.playbar{
+    background-color: rgb(143, 232, 213);
+    width: 100%;
+    height: 4px;
+    position: relative;
+    top: 50;
+    cursor: pointer;
+
+}
+.list li:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+.circle{
+    position: absolute;
+    color: green;
+    top: 42;
+    left: 0%;
+    transition: left 0.2s;
+}
+
+.song_info{
+    position: relative;
+    top: -45;
+}
+.box.player{
+    position:fixed;
+    bottom: 10;
+}
+
+
+
+@media (max-width:700px) {
+    
+}
